@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 // Escreva um programa que calcule a soma e a média aritmética de 3 números. Os 3 valores reais serão informados pelo usuário.
@@ -26,7 +25,7 @@ public class quest2 {
 
             System.out.printf("\nValor da media  :             %.2f \n" , media); // mostra a nota antes do arredondamento 
 
-            mediaInt = (int) Math.round(media); // armazena o arrendondamento em double como int por meio de  castin 
+            mediaInt = (int) Math.round(media);     // armazena o arrendondamento em double como int por meio de castin 
         
             System.out.printf("O valor da media arredondad : %d \n", mediaInt); // mostra o resultado com uma casa decimal
         

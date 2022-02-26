@@ -6,19 +6,26 @@ import java.util.Scanner;
 public class quest5 {
     
     public static void main(String[] args){
-        Scanner str = new Scanner (System.in);
+        Scanner entrada = new Scanner (System.in);
 
-        String frase, invert;
+        int numero, C, D, U, aux, resto;
 
-        System.out.println("Digite um conjunto de caractere : ");
+        System.out.println("Escreva aqui um numero de 3 digitos :");
+        numero = entrada.nextInt();
         
-        frase = str.next();
+        C = (int) numero / 100;
+        aux = C * 100;
+        resto = numero - aux;
 
-        invert = new StringBuilder(frase).reverse().toString();
+        D = (int) resto / 10;
+        aux = D * 10;
+        resto = resto - aux;
 
-        System.out.println(invert);
+        U = resto;
 
-        str.close();
+        System.out.printf("%d%d%d",U,D,C);
+
+        entrada.close();
 
     }
 }
