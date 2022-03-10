@@ -13,7 +13,7 @@ public class quest1{
         System.out.println("Digite o lado do quadrado ");
         lado = entrada.nextDouble();
 
-        area = Math.pow(lado, 2);
+        area = Math.pow(lado, 2); // A = L^2
 
         System.out.printf("A area do quadrado eh: %.2f \n", area); // %Q usado para duble
 
