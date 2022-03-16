@@ -10,7 +10,7 @@ public class quest1{
 
         double lado, area;
 
-        System.out.println("Digite o lado do quadrado ");
+        System.out.println("Digite o lado do quadrado: ");
         lado = entrada.nextDouble();
 
         area = Math.pow(lado, 2); // A = L^2

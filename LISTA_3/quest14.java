@@ -7,7 +7,7 @@ public class quest14 {
 
             while( cA < cB ){
                 System.out.printf("A = %.2f    -  B = %.2f    ANO: %d \n", cA, cB, ano);
-                cA = cA + (cA * 0.035);
+                cA = cA + (cA * 0.035); // bem simples, um laço para contar em quantos anos a cidade a será menor que a B, assim q a cidade A for maior eu encerro meu laço.
                 cB = cB + (cB * 0.01);
                 ano++;
                 

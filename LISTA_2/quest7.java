@@ -56,7 +56,7 @@ public class quest7{
         else if(valorCarta == 13){
             resultCarta = "Rei";
         }else{
-            System.out.println("Valor invalido, digite novamente: ");
+            System.out.println("Valor invalido, digite novamente: "); // pequeno tratamento de erro
             valorCarta = entrada.nextInt();
         }
 
@@ -72,14 +72,15 @@ public class quest7{
         else if(naipe == 4){
             resultNaipe="Espadas";
         }else{
-            System.out.println("Valor invalido, digite novamente: ");
+            System.out.println("Valor invalido, digite novamente: "); // pequeno tratamento de erro
             naipe = entrada.nextInt();
         }
 
+        entrada.close();
 
         System.out.printf("%s de %s.", resultCarta, resultNaipe);
 
-        entrada.close();
+        
 
     }
 

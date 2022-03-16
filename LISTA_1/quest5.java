@@ -11,15 +11,15 @@ public class quest5 {
         int numero, C, D, U, aux, resto;
 
         System.out.println("Escreva aqui um numero de 3 digitos :");
-        numero = entrada.nextInt();
+        numero = entrada.nextInt(); // coletando a centena do usuário
         
-        C = (int) numero / 100;
+        C = (int) numero / 100;     //extradino o intero da centena
         aux = C * 100;
         resto = numero - aux;
 
-        D = (int) resto / 10;
+        D = (int) resto / 10;       //extradindo o inteiro do decimal
         aux = D * 10;
-        resto = resto - aux;
+        resto = resto - aux;        //colentando a unidade
 
         U = resto;
 

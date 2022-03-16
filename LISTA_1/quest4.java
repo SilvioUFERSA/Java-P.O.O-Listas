@@ -8,7 +8,7 @@ public class quest4 {
 
         Scanner input = new Scanner (System.in);
 
-        double C, F;
+        double C=0, F=0;
 
         System.out.println("Digite a temperatura em Celcius: ");
         C = input.nextDouble();

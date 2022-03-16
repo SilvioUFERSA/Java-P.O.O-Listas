@@ -18,13 +18,13 @@ public class quest3 {
         
             radio = (graus * Math.PI) / 180;
 
-            cos = Math.cos(radio);
+            cos = Math.cos(radio); // após convertido graus em radiano, fazemos as proximas operações com graus transformado em radiano
             sen = Math.sin(radio);
-            tg = Math.tan(radio);
+            tg  = Math.tan(radio);
 
-            sec = 1 / cos;      // secante é o inverso do cosseno
-            cossec = 1 / sen;   // cossec é o inverso do seno
-            cotg = 1 / tg;      // cotg é o inverso da tangente
+            sec    = 1 / cos;      // secante é o inverso do cosseno
+            cossec = 1 / sen;      // cossec é o inverso do seno
+            cotg   = 1 / tg;       // cotg é o inverso da tangente
 
              System.out.printf("- %.2f ° eh : %.3f radianos \n", graus, radio);
 

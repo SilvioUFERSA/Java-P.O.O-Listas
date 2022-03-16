@@ -6,7 +6,7 @@ public class quest9 {
 
         Scanner entrada = new Scanner (System.in);
 
-        double x1, y1, x2, y2;
+        double x1=0, y1=0, x2=0, y2=0;
 
         String position1 ="Nulo", position2="Nulo";
 
@@ -22,6 +22,7 @@ public class quest9 {
         System.out.println("Digite um ponto Y2");
         y2= entrada.nextDouble();
 
+        entrada.close();
 
         if((x2 < x1) && (y2 < y1)){         // testado
             position1 = "Abaixo";
@@ -61,7 +62,7 @@ public class quest9 {
 
         System.out.printf("|| O ponto(x2,y2) esta %s %s do Primeiro ponto(x1,y1).  ||", position1, position2);
 
-        entrada.close();
+        
         
     }
 }

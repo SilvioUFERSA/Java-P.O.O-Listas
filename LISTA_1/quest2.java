@@ -25,9 +25,9 @@ public class quest2 {
 
             System.out.printf("\nValor da media  :             %.2f \n" , media); // mostra a nota antes do arredondamento 
 
-            mediaInt = (int) Math.round(media);     // armazena o arrendondamento em double como int por meio de castin 
+            mediaInt = (int) Math.round(media);     // resultado do Math.round em double é transformado em int
         
-            System.out.printf("O valor da media arredondad : %d \n", mediaInt); // mostra o resultado com uma casa decimal
+            System.out.printf("O valor da media arredondada : %d,00 \n", mediaInt); 
         
         entrada.close();
 
